@@ -1,0 +1,145 @@
+@import 'core/reset';
+* { font-family: Poppins; }
+
+:root {
+    --main-color: #0c474b;
+    --secondary-color: #f0ebe5;
+    --color-third: #ff975a;
+    --color-forth: #b6c8c9;
+  }
+
+
+.header {
+    background-image: url("../images/header.jpg");
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+} 
+.logo {
+    width: 213px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 19px;
+    margin-bottom: 62px;
+}
+.menu-hamburger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: left;
+    width: 24px;
+    height: 24px;
+    margin-left: 33px;
+    margin-top: 55px;
+}
+
+h1 {font-size: 24px;
+    color: var(--main-color);
+    margin: 45px 32px 45px 37px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--main-color);
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    font-size: 14px;
+    background-color: #0c474b;
+    width: 176px;
+    height: 48px;
+    stroke: none;
+    padding: 12px 24px;
+    box-shadow: none;
+    margin-bottom: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.second-module {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: var(--secondary-color);
+    width: 100vw;
+}
+
+.icon-1 {
+    width: 93px;
+    height: 100px; 
+    margin-bottom: 42px;  
+}
+
+.icon-2 {
+    width: 90px;
+    height: 90px; 
+    margin-bottom: 42px;  
+}
+.icon-3 {
+    width: 90px;
+    height: 90px; 
+    margin-bottom: 42px;  
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--main-color);
+    margin-bottom: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--main-color);
+    margin-left: 103px;
+    margin-right: 103px;
+    margin-bottom: 42px;
+}
+
+.shipping {
+    background-color: var(--color-third);
+    text-align: center;
+    width: 100vw;
+}
+
+.icon-4 {
+    width: 120px;
+    height: 120px; 
+    margin-top: 46px;
+    margin-bottom: 10px; 
+
+}
+.enjoy {
+    background-color: var(--secondary-color);
+    text-align: center;
+    width: 100vw;
+}
+
+
+.photo {
+    width: 100vw;  
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+
+.footer {
+    width: 100vw;
+    background-color: var(--main-color);
+    color: var(--color-forth);
+    text-align: center;
+}
+
+
+
+
