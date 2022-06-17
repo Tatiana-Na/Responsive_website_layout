@@ -2,14 +2,12 @@
 
 * { font-family: 'Poppins', sans-serif; }
 
-
 :root {
     --main-color: #0c474b;
     --secondary-color: #f0ebe5;
     --color-third: #ff975a;
     --color-forth: #b6c8c9;
-  }
-
+ }
 
 .header {
     background-image: url("../images/header.jpg");
@@ -20,8 +18,8 @@
     background-size: cover;
     background-position: center;
     align-items: center;
-
 } 
+
 .logo {
     width: 213px;
     height: 96px;
@@ -30,6 +28,7 @@
     margin-top: 19px;
     margin-bottom: 62px;
 }
+
 .menu-hamburger {
     color: var(--main-color);
     position: fixed;
@@ -42,17 +41,14 @@
     margin-top: 55px;
 }
 .menu {
-    display: none;
-    
+    display: none;   
 }
-
 
 .text-button-header {
     display: flex;
     flex-direction: column;
     background-position: center;
     align-items: center;
-
 }
 
 h2 {
@@ -78,6 +74,12 @@ h2 {
     align-items: center; 
     border-style: none;
 }
+.button:hover{
+    color: var(--main-color);
+    font-size: 14px;
+    background-color: var(--secondary-color);
+}
+
 
 h1 {font-size: 24px;
     color: var(--main-color);
@@ -97,7 +99,6 @@ h1 {font-size: 24px;
 .second-articles {
     display: grid;
     grid-template-columns: 1fr;
-  
 }
 
 .icon-1 {
@@ -137,6 +138,7 @@ h3 {
     width: 100vw;
     padding-bottom: 65px;
 }
+
 .h3-shipping {
   color: white;
   margin-bottom: 5px;  
@@ -155,6 +157,7 @@ h3 {
     font-weight: lighter;
     margin-bottom: 17px;
 }
+
 .buy-link {
     color: white;
     font-size: 16px;
@@ -166,12 +169,14 @@ h3 {
     color: var(--main-color);
     padding-top: 87px;
 }
+
 .enjoy {
     background-color: var(--secondary-color);
     text-align: center;
     width: 100vw;
     padding-bottom: 92px;
 }
+
 .p-enjoy {
     color: var(--main-color);
     font-size: 12px;
@@ -179,6 +184,7 @@ h3 {
     padding-left: 27px;
     padding-right: 27px;
 }
+
 .button-2 {
     color: white;
     font-size: 14px;
@@ -189,6 +195,12 @@ h3 {
     padding: 12px 24px;
     box-shadow: none;
     border-style: none;
+}
+
+.button-2:hover{
+    color: var(--main-color);
+    font-size: 14px;
+    background-color: var(--secondary-color);
 }
 
 
@@ -206,6 +218,7 @@ h3 {
     position: relative;
     padding-bottom: 63px;
 }
+
 .h3-footer-first {
     font-size: 20px;
     color: var(--color-forth);
@@ -214,6 +227,7 @@ h3 {
     margin-left: 146px;
     margin-bottom: 5px;
 }
+
 .h3-footer {
     font-size: 20px;
     color: var(--color-forth);
@@ -225,9 +239,7 @@ h3 {
 
 .text-footer {
     list-style: none;
-
 }
-
 
 .text-footer a {
     font-size: 14px;
@@ -267,7 +279,6 @@ color: white;
         color: white;
         }   
 
-
 .arrow {
     position: absolute;
     bottom: 0;
@@ -277,6 +288,7 @@ color: white;
     margin-bottom: 16px;
     margin-right: 20px;   
 }
+
 .arrow-2 {
     color: white;
     }
@@ -287,7 +299,6 @@ color: white;
 
     .header {
         background-position: right;
-       
         width: 100%;
     }
     
@@ -311,13 +322,11 @@ color: white;
         font-size: 36px;
         color: var(--main-color);
         text-align: left;
-        margin-bottom: 10px; 
-        
+        margin-bottom: 10px;     
     }
   
     .button {
         margin-bottom: 100px;
-     
     }
    
 
@@ -339,8 +348,7 @@ color: white;
     
     .second-articles {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-      
+        grid-template-columns: repeat(3, 1fr); 
     }
 
     .footer {
@@ -352,13 +360,13 @@ color: white;
         display: flex;
         flex-direction: row;
         justify-content: left;
-        align-items: flex-start;
-        
+        align-items: flex-start;   
     }
 
     .h3-footer-first {
         padding-top: 71px;
     }
+    
     .h3-footer {
         padding-top: 71px;
     }
@@ -383,21 +391,23 @@ color: white;
 
 /* =============== */
 
-@media screen and (min-width:1728px){ /*desktop*/
+@media screen and (min-width:1728px){ /*desktop*/  
 
-    
 .menu {
-color: var(--main-color);
-position: fixed;
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-start;
-   gap: 30px;
-   margin-top: 30px;
-   width: 80%;
-   list-style: none;
-   text-decoration: none;  
- }
+        color: var(--main-color);
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 30px;
+        margin-top: 30px;
+        width: 80%;
+        list-style: none;
+        text-decoration: none;  
+        padding: 5px 5px 5px 5px;
+   }
+     
+  
  h1 {
     font-size: 36px;
     color: var(--main-color);
@@ -411,9 +421,6 @@ position: fixed;
 .menu-hamburger {
     display: none;  
         }
-
-
-
 
 .text-article {
     font-size: 16px;
@@ -429,8 +436,7 @@ h3 {
 }
 .text-article {
     margin-left: 170px;
-    margin-right: 170px;
-   
+    margin-right: 170px;  
 }
 .enjoy-photo {
     display: flex;
@@ -447,18 +453,18 @@ h3 {
 .enjoy {
     background-color: var(--secondary-color);
     width: 50%;
-    text-align: left;
-    
+    text-align: left;   
 }
+
 .p-enjoy {
     color: var(--main-color);
     font-size: 16px;
     text-align: left;
     padding-bottom: 30px;
     padding-left: 280px;
-    padding-right: 293px;
-    
+    padding-right: 293px;   
 }
+
 .button-2 {
     border-style: none;
     margin-left: 280px;
@@ -475,6 +481,7 @@ h3 {
     width: 100vw;
     padding-bottom: 65px;
 }
+
 .h3-shipping {
   color: white;
   margin-bottom: 5px;  
@@ -483,26 +490,27 @@ h3 {
 .icon-shipping {
     margin-top: 61px;
 }
+
 .p-shipping {
     font-size: 16px;
 }
-
 
 .h3-footer-first {
     padding-top: 130px;
     padding-left: 200px;
 }
+
 .h3-footer {
     padding-top: 130px;
     padding-left: 200px;
 }
 
-.text-footer a {
-   
+.text-footer a {  
     padding-left: 200px;    
 }
+
 .icons-footer {
     margin-left: 343px;
- 
-    }
+ }
+
 }
