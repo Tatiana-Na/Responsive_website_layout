@@ -80,6 +80,19 @@ h2 {
     background-color: var(--secondary-color);
 }
 
+.new-section {
+    background-color: var(--main-color);
+   padding: 20px 20px 20px 20px;
+   text-align: center;
+}
+
+.h3-new-section {
+    color: white;
+}
+p a {
+    color: white;
+    text-decoration: none;
+}
 
 h1 {font-size: 24px;
     color: var(--main-color);
@@ -337,6 +350,16 @@ color: white;
         margin-bottom: 31px;
         text-align: center;
     }
+
+    .new-section {
+        background-color: var(--color-third);
+       padding: 20px 20px 20px 20px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+    }
+    
    
     .second-module {
         text-align: center;
@@ -421,6 +444,7 @@ color: white;
 .menu-hamburger {
     display: none;  
         }
+        
 
 .text-article {
     font-size: 16px;
