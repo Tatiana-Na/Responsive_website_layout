@@ -306,12 +306,10 @@ color: white;
         margin-top: 39px;
         margin-bottom: 300px;
         display: flex;
-        justify-content: center;
         align-items: center; 
     }
 
     .text-button-header {
-        display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         width: 70%;
@@ -320,7 +318,6 @@ color: white;
 
     h2 {
         font-size: 36px;
-        color: var(--main-color);
         text-align: left;
         margin-bottom: 10px;     
     }
@@ -330,32 +327,23 @@ color: white;
     }
    
 
-    h1 {font-size: 24px;
-        color: var(--main-color);
+    h1 {
         margin-left: 190px;
         margin-right: 190px;
-        margin-bottom: 31px;
         text-align: center;
     }
    
     .second-module {
-        text-align: center;
-        background-color: var(--secondary-color);
         width: 100vw;
         padding-top: 41px;
         padding-bottom: 70px;
     }
     
     .second-articles {
-        display: grid;
         grid-template-columns: repeat(3, 1fr); 
     }
 
     .footer {
-        width: 100vw;
-        background-color: var(--main-color);
-        color: var(--color-forth);
-        position: relative;
         padding-bottom: 74px;
         display: flex;
         flex-direction: row;
@@ -372,12 +360,6 @@ color: white;
     }
 
     .text-footer a {
-        font-size: 14px;
-        color: var(--color-forth);
-        text-decoration: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
         align-items: flex-start;    
     }
     
@@ -394,7 +376,6 @@ color: white;
 @media screen and (min-width:1728px){ /*desktop*/  
 
 .menu {
-        color: var(--main-color);
         position: fixed;
         display: flex;
         flex-direction: row;
@@ -406,11 +387,16 @@ color: white;
         text-decoration: none;  
         padding: 5px 5px 5px 5px;
    }
-     
-  
+   .menu-link {
+    text-decoration: none; 
+    color: var(--main-color);
+   }  
+   .menu-link:hover { 
+    font-style: italic;
+   }
+
  h1 {
     font-size: 36px;
-    color: var(--main-color);
     margin-left: 460px;
     margin-right: 460px;
     margin-bottom: 40px;
@@ -423,10 +409,7 @@ color: white;
         }
 
 .text-article {
-    font-size: 16px;
-    color: var(--main-color);
     margin-left: 103px;
-    margin-right: 103px;
     margin-bottom: 42px;
 }
 
@@ -445,22 +428,18 @@ h3 {
 .h3-enjoy {
     font-size: 36px;
     text-align: left;
-    color: var(--main-color);
     padding-top: 176px;
     padding-left: 280px;
     padding-right: 293px;
 }
 .enjoy {
-    background-color: var(--secondary-color);
     width: 50%;
     text-align: left;   
 }
 
 .p-enjoy {
-    color: var(--main-color);
     font-size: 16px;
     text-align: left;
-    padding-bottom: 30px;
     padding-left: 280px;
     padding-right: 293px;   
 }
@@ -476,8 +455,6 @@ h3 {
 }
 
 .shipping {
-    background-color: var(--color-third);
-    text-align: center;
     width: 100vw;
     padding-bottom: 65px;
 }
